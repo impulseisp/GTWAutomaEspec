@@ -1,0 +1,133 @@
+<resources>
+    <string name="app_name">GTW Automa Especializado</string>
+    <string name="bStart">Empezar</string>
+    <string name="bStartGame">Iniciar Partida</string>
+    <string name="bNuevaCarta">Roba Carta</string>
+    <string name="rEasy">Fácil</string>
+    <string name="rMedium">Medio</string>
+    <string name="rHard">Difícil</string>
+    <string name="rVeryHard">Muy Difícil</string>
+    <string name="sExpansionActivada">Expansión Rieles Hacia el Norte</string>
+    <string name="hCard_01">
+A: Mover la figura de vaquero 1 espacio (con 4 jugadores: 3 espacios).\n\nB: Contratar al trabajador de menor coste disponible de cualquier tipo. En casos de igualdad,
+se da preferencia al trabajador de la especialización y después se elige de arriba abajo y de
+izquierda a derecha de la tabla de mercado de trabajo.
+    </string>
+    <string name="hCard_02">
+A: Mover la figura de vaquero 1 espacio.\n\nB: Avanzar la locomotora tantos espacios como ingenieros tenga Garth, mejorando estación
+si es alcanzada y tomando su ficha de jefe de estación si está disponible.
+    </string>
+    <string name="hCard_02_exp">
+A: Mover la figura de vaquero 1 espacio y colocar una sucursal.\n\nB: Avanzar la locomotora tantos espacios como ingenieros tenga Garth, mejorando estación
+si es alcanzada y tomando su ficha de jefe de estación si está disponible.
+    </string>
+    <string name="hCard_03">
+A: Mover la figura de vaquero 1 espacio.\n\nB: Coger la carta de objetivo más alejada del mazo y desplazar las cartas restantes antes de
+rellenar la fila o columna donde se hayan dispuesto.
+    </string>
+    <string name="hCard_03_exp">
+A: Mover la figura de vaquero 1 espacio y colocar una sucursal.\n\nB: Coger la carta de objetivo más alejada del mazo y desplazar las cartas restantes antes de
+rellenar la fila o columna donde se hayan dispuesto.
+    </string>
+    <string name="hCard_04">
+A: Mover la figura de vaquero 1 espacio (con 3/4 jugadores: 3 espacios).\n\nB: Coger la loseta de tipi de mayor rentabilidad (de mayor valor a menor coste).
+    </string>
+    <string name="hCard_05">
+A: Mover la figura de vaquero 1 espacio (con 3/4 jugadores: 3 espacios).\n\nB: De la sección de riesgos del tablero con mayor cantidad de losetas, coger la loseta de riesgo
+de mayor puntuación. En caso de igualdad entre secciones o entre losetas, la elección se
+efectúa al arbitrio del jugador.
+    </string>
+    <string name="hCard_06">
+A: Mover la figura de vaquero 1 espacio (con 4 jugadores: 3 espacios).\n\nB: Contratar trabajador especializado si está disponible, o al trabajador más numeroso en
+otro caso. En caso de igualdad, se elige al trabajador de menor coste del tipo elegido y
+después se elige de arriba abajo y de izquierda a derecha de la tabla de mercado de trabajo.
+    </string>
+    <string name="hCard_07">
+A: Mover la figura de vaquero 2 espacios.\n\nB: Avanzar la locomotora tantos espacios como ingenieros tenga Garth, mejorando una
+estación si es alcanzada y tomando su ficha de jefe de estación si está disponible.
+    </string>
+    <string name="hCard_07_exp">
+A: Mover la figura de vaquero 2 espacios y colocar una sucursal.\n\nB: Avanzar la locomotora tantos espacios como ingenieros tenga Garth, mejorando una
+estación si es alcanzada y tomando su ficha de jefe de estación si está disponible.
+    </string>
+    <string name="hCard_08">
+A: Mover la figura de vaquero 2 espacios.\n\nB: Usando los vaqueros disponibles de Garth y con un coste máximo de 8 dólares, comprar
+la carta de ganado que ofrezca más PV.
+    </string>
+    <string name="hCard_09">
+A: Mover la figura de vaquero 2 espacios.\n\nB: Construir o mejorar un edificio de lado b con tantos constructores de Garth como sea
+posible. Los nuevos edificios se colocan a continuación de la figura de vaquero del jugador
+real. En casos de igualdad:\n
+1º. Prevalece nuevo edificio frente a mejora.\n
+2º. Mejorar los edificios de mayor valor.\n
+3º. Rentabilizar los peajes.
+    </string>
+    <string name="hCard_09_exp">
+A: Mover la figura de vaquero 2 espacios y colocar una sucursal.\n\nB: Construir o mejorar un edificio de lado b con tantos constructores de Garth como sea
+posible. Los nuevos edificios se colocan a continuación de la figura de vaquero del jugador
+real. En casos de igualdad:\n
+1º. Prevalece nuevo edificio frente a mejora.\n
+2º. Mejorar los edificios de mayor valor.\n
+3º. Rentabilizar los peajes.
+    </string>
+    <string name="hCard_10">
+A: Mover la figura de vaquero tantos espacios como edificios privados tenga el jugador que
+ha construido más edificios privados, incluido Garth (mínimo 1).\n\nB: Si Garth se ha especializado en constructores, construye o mejora un edificio propio
+(siempre de lado b, empleando tantos constructores como sea posible. Los nuevos edificios
+se colocan a continuación de la figura de vaquero del jugador real. En casos de igualdad:\n
+1º. Prevalece nuevo edificio frente a mejora.\n
+2º. Mejorar los edificios de mayor valor.\n
+3º. Rentabilizar los peajes.
+    </string>
+    <string name="hCard_11">
+A: Mover la figura de vaquero tantos espacios como edificios privados tenga el jugador que
+ha construido más edificios privados, incluido Garth (mínimo 1).\n\nB: Si Garth se ha especializado en ingenieros, contratar a un ingeniero si es posible. Después
+avanzar la locomotora tantos espacios como ingenieros tenga Garth, mejorando una estación
+si es alcanzada y tomando su ficha de jefe de estación si está disponible.
+    </string>
+    <string name="hCard_12">
+A: Mover la figura de vaquero tantos espacios como vaqueros tenga Garth.\n\nB: Si Garth se ha especializado en vaqueros, empleará 1 de ellos para añadir 2 nuevas cartas
+de ganado y luego utilizará sus vaqueros restantes y un valor máximo de 8 dólares para
+comprar en el mercado de ganado la carta de mayor puntuación.
+    </string>
+    <string name="hCard_13">
+A: Mover la figura de vaquero tantos espacios como vaqueros tenga Garth.\n\nB: Si Garth se ha especializado en vaqueros, empleará todos ellos y un coste máximo de 8
+dólares para comprar en el mercado de ganado la carta de mayor puntuación.
+    </string>
+    <string name="hCard_14">
+A: Mover la figura de vaquero tantos espacios como trabajadores especializados tenga Garth.\n\nB: Si Garth se ha especializado en ingenieros, avanzar la locomotora tantos espacios como
+ingenieros tenga, mejorando una estación si es alcanzada y cogiendo su ficha de jefe de
+estación si está disponible.
+    </string>
+    <string name="hCard_15">
+A: Mover la figura de vaquero tantos espacios como trabajadores especializados tenga Garth.\n\nB: Si Garth se ha especializado en constructores, construir o mejorar un edificio (siempre por
+su lado b, utilizando tantos de sus constructores como sea posible. Los nuevos edificios se
+colocan justo a continuación de la figura de vaquero del jugador real. En casos de igualdad:\n
+1º. Prevalece nuevo edificio frente a mejora.\n
+2º. Mejorar los edificios de mayor valor.\n
+3º. Rentabilizar los peajes.
+    </string>
+    <string name="cdImagenCarta">Imagen Carta</string>
+    <string name="cdImagenCowboy">Imagen Cowboy</string>
+    <string name="cdImagenConstructor">Imagen Constructor</string>
+    <string name="cdImagenIngeniero">Imagen Ingeniero</string>
+    <string name="cdImagenEspecialidad">Imagen Especialidad</string>
+    <string name="sCowboys">Cowboys</string>
+    <string name="sConstructores">Constructores</string>
+    <string name="sIngenieros">Ingenieros</string>
+    <string name="sCancel">Cancelar</string>
+    <string name="tCartasRestantes">Cartas Restantes:</string>
+    <string name="tSeleccionaTrabajador">Trabajador Seleccionado:</string>
+    <string name="sEspecialidad">Especialidad</string>
+    <string name="sFichasAlAzarSeleccionadas">Toma la/s siguiente/s ficha/s:</string>
+    <string name="sInicioCiudadFacil">Garth realiza su primer envío a Wichita</string>
+    <string name="sInicioCiudadFacil_exp">Garth realiza su primer envío a Wichita / Chicago</string>
+    <string name="sInicioCiudadMedio">Garth realiza su primer envío a Colorado Springs</string>
+    <string name="sInicioCiudadMedio_exp">Garth realiza su primer envío a Colorado Springs / Chicago (y se saltará Detroit)</string>
+    <string name="sInicioCiudadDificil">Garth realiza su primer envío a Alburquerque</string>
+    <string name="sInicioCiudadDificil_exp">Garth realiza su primer envío a Albuerquerque / Cleveland</string>
+    <string name="sNotaTrabajadoresMedio">Garth comienza con una ficha de trabajador de su especialidad</string>
+    <string name="sNotaTrabajadoresDificil">Garth comienza las dos fichas de trabajador siguientes (han sido seleccionadas al azar)</string>
+    <string name="sNotaTrabajadoresMuyDificil">Garth comienza con una ficha de cada trabajador y la siguiente ficha (ha sido seleccionada al azar)</string>
+
+</resources>

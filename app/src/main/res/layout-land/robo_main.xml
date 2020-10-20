@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#533E30">
+
+    <TextView
+        android:id="@+id/cartasRestantesView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="60dp"
+        android:textColor="?android:attr/colorForegroundInverse"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textoCartasRestantesView"
+        tools:text="15" />
+
+    <ImageView
+        android:id="@+id/imagenCartaView"
+        android:layout_width="406dp"
+        android:layout_height="208dp"
+        android:clickable="true"
+        android:contentDescription="@string/cdImagenCarta"
+        android:cropToPadding="false"
+        android:focusable="true"
+        android:onClick="abrirAyuda"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/card_05_h192" />
+
+    <TextView
+        android:id="@+id/textoCartasRestantesView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="64dp"
+        android:paddingStart="0dp"
+        android:paddingEnd="10dp"
+        android:text="@string/tCartasRestantes"
+        android:textColor="?android:attr/colorForegroundInverse"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <FrameLayout
+        android:id="@+id/popUpAyuda"
+        android:layout_width="408dp"
+        android:layout_height="258dp"
+        android:background="#DDE4E4E4"
+        android:clickable="true"
+        android:focusable="true"
+        android:onClick="cerrarAyuda"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="@+id/imagenCartaView"
+        app:layout_constraintStart_toStartOf="@+id/imagenCartaView"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textoAyudaView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="15dp" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/seleccionaTrabajador"
+        android:layout_width="409dp"
+        android:layout_height="202dp"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <TextView
+            android:id="@+id/trabajadorSeleccioandoTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            android:text="@string/tSeleccionaTrabajador"
+            android:textColor="?android:attr/colorForegroundInverse" />
+
+        <ImageView
+            android:id="@+id/cowBoyImageView"
+            android:layout_width="137dp"
+            android:layout_height="182dp"
+            android:layout_gravity="bottom"
+            android:layout_marginTop="0dp"
+            android:layout_marginBottom="0dp"
+            android:background="#533E30"
+            android:contentDescription="@string/cdImagenCowboy"
+            android:onClick="addCowBoy"
+            android:scaleType="centerCrop"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/cowboy_w70" />
+
+        <ImageView
+            android:id="@+id/constructorImageView"
+            android:layout_width="137dp"
+            android:layout_height="182dp"
+            android:layout_gravity="bottom"
+            android:layout_marginStart="137dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginBottom="0dp"
+            android:adjustViewBounds="false"
+            android:background="#533E30"
+            android:contentDescription="@string/cdImagenConstructor"
+            android:cropToPadding="false"
+            android:onClick="addConstructor"
+            android:scaleType="centerCrop"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/constructor_w70" />
+
+        <ImageView
+            android:id="@+id/IngenieroImageView"
+            android:layout_width="135dp"
+            android:layout_height="182dp"
+            android:layout_gravity="bottom|end"
+            android:adjustViewBounds="false"
+            android:background="#533E30"
+            android:clickable="true"
+            android:contentDescription="@string/cdImagenIngeniero"
+            android:cropToPadding="false"
+            android:focusable="true"
+            android:onClick="addIngeniero"
+            android:scaleType="centerCrop"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/ingeniero_w70" />
+    </FrameLayout>
+
+    <Button
+        android:id="@+id/bRobaNuevaCarta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="60dp"
+        android:layout_marginBottom="50dp"
+        android:onClick="robaNuevaCarta"
+        android:text="@string/bNuevaCarta"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <RelativeLayout
+        android:layout_width="251dp"
+        android:layout_height="122dp"
+        android:orientation="vertical"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imagenCartaView"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.120000005">
+
+        <TextView
+            android:id="@+id/numCowboysTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="@string/sCowboys"
+            android:textAlignment="center"
+            android:textColor="@android:color/primary_text_dark" />
+
+        <TextView
+            android:id="@+id/numConstructoresTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:padding="10dp"
+            android:text="@string/sConstructores"
+            android:textAlignment="center"
+            android:textColor="@android:color/primary_text_dark" />
+
+        <TextView
+            android:id="@+id/numIngenierosTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="80dp"
+            android:padding="10dp"
+            android:text="@string/sIngenieros"
+            android:textAlignment="center"
+            android:textColor="@android:color/primary_text_dark" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/seleccionSoloIngeniero"
+        android:layout_width="250dp"
+        android:layout_height="180dp"
+        android:orientation="horizontal"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <ImageView
+            android:id="@+id/IngenieroImageView2"
+            android:layout_width="25dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="bottom"
+            android:layout_weight="3"
+            android:adjustViewBounds="false"
+            android:background="#533E30"
+            android:clickable="true"
+            android:contentDescription="@string/cdImagenIngeniero"
+            android:cropToPadding="false"
+            android:focusable="true"
+            android:onClick="addIngeniero"
+            android:scaleType="centerCrop"
+            app:srcCompat="@drawable/ingeniero_w70" />
+
+        <ImageView
+            android:id="@+id/cancelarImageView"
+            android:layout_width="25dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="bottom"
+            android:layout_weight="3"
+            android:adjustViewBounds="false"
+            android:background="#533E30"
+            android:clickable="true"
+            android:contentDescription="@string/sCancel"
+            android:cropToPadding="false"
+            android:focusable="true"
+            android:onClick="cancelAddIngeniero"
+            android:scaleType="fitCenter"
+            app:srcCompat="@android:drawable/ic_menu_close_clear_cancel" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
